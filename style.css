@@ -1,0 +1,73 @@
+body {
+    background-image: url(img/bgCafe.jpg); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+}
+
+.menu {
+    background-color: #DDB892; 
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 50px 10px rgba(0,0,0,.5);
+    text-align: center;
+    max-width: 500px;
+    width: 400px;
+}
+
+@font-face {
+    font-family: 'nafis';
+    src: url(fonts/Nafisfont-Regular.ttf);
+}
+@font-face {
+    font-family: 'ham';
+    src: url(fonts/HamIsCute-Regular.ttf);
+}
+@font-face {
+    font-family: 'edward';
+    src: url(fonts/Edwardian.ttf);
+}
+@font-face {
+    font-family: 'heart';
+    src: url(fonts/rainyhearts.ttf);
+}
+
+.title {
+    font-family: 'edward', serif;
+    font-size: 5rem;
+    color: #5c3d2e; 
+    margin-bottom: 1px;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+.section{
+    font-family: 'nafis', serif;
+    text-align: left;
+    font-size: 2rem;
+}
+.items {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.items li {
+    font-family: 'heart', serif;
+    font-size: 25px;
+    color: #333;
+    padding: 0.75rem 0;
+    border-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li:hover {
+    background-color: #f9f4ef; 
+    color: #5c3d2e;
+    cursor: pointer;
+    border-radius: 6px;
+}
